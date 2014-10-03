@@ -20,9 +20,10 @@ module.exports = function(grunt) {
         environment.build(function(error) {
           if (error) {
             grunt.log.error(error);
+            done(false);
+          } else {
+            done();
           }
-
-          done();
         });
         break;
       case 'preview':
