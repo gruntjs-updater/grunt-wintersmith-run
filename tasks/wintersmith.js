@@ -30,6 +30,7 @@ module.exports = function(grunt) {
         environment.preview(function(error) {
           if (error) {
             grunt.log.error(error);
+            done(false);
           }
         });
         break;
