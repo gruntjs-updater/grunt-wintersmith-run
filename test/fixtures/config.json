@@ -1,0 +1,7 @@
+{
+  "locals": {
+    "name": "Site Name",
+    "owner": "Site Owner"
+  },
+  "output": "../../tmp/build"
+}
