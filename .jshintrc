@@ -6,7 +6,7 @@
   "forin": true,
   "freeze": true,
   "immed": true,
-  "indent": true,
+  "indent": 2,
   "latedef": true,
   "maxdepth": 2,
   "maxlen": 80,
