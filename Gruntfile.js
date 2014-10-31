@@ -42,6 +42,7 @@ module.exports = function(grunt) {
   grunt.loadTasks('tasks');
 
   require('load-grunt-tasks')(grunt);
+  require('time-grunt')(grunt);
 
   grunt.registerTask('test', [
     'clean',
