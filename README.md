@@ -98,5 +98,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+* 2014-11-14 v0.1.2 Background mode support
 * 2014-10-03 v0.1.1 Better error management
 * 2014-10-03 v0.1.0 Initial release
