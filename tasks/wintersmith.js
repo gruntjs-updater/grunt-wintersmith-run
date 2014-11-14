@@ -8,6 +8,7 @@ module.exports = function(grunt) {
     var done = this.async(),
         options = this.options({
           action: 'build',
+          background: false,
           config: 'config.json',
           locals: {},
         }),
@@ -31,6 +32,8 @@ module.exports = function(grunt) {
           if (error) {
             grunt.log.error(error);
             done(false);
+          } else if (options.background) {
+            done();
           }
         });
         break;

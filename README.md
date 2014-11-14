@@ -46,6 +46,13 @@ Default value: `build`
 
 Specifies the action to run with Wintersmith.
 
+#### options.background
+
+Type: `Boolean`
+Default value: `false`
+
+Specifies the mode to run the preview server.
+
 #### options.config
 
 Type: `String`
