@@ -1,7 +1,7 @@
 'use strict';
 
-var wintersmith = require('wintersmith'),
-    _ = require('lodash');
+var _ = require('lodash'),
+    wintersmith = require('wintersmith');
 
 module.exports = function(grunt) {
   grunt.registerMultiTask('wintersmith', 'Run Wintersmith.', function() {
