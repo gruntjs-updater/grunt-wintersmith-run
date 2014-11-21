@@ -12,11 +12,6 @@ module.exports = function(grunt) {
         '<%= nodeunit.tests %>',
       ],
     },
-    clean: {
-      tests: [
-        'tmp',
-      ],
-    },
     jscs: {
       options: {
         config: '.jscsrc'
@@ -26,6 +21,11 @@ module.exports = function(grunt) {
         'tasks/*.js',
         '<%= nodeunit.tests %>',
       ]
+    },
+    clean: {
+      tests: [
+        'tmp',
+      ],
     },
     wintersmith: {
       build: {
