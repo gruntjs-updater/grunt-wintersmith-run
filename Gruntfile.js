@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         'Gruntfile.js',
         'tasks/*.js',
         '<%= nodeunit.tests %>',
-      ]
+      ],
     },
     clean: {
       tests: [
