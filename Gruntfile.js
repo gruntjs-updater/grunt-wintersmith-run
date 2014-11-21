@@ -17,6 +17,16 @@ module.exports = function(grunt) {
         'tmp',
       ],
     },
+    jscs: {
+      options: {
+        config: '.jscsrc'
+      },
+      all: [
+        'Gruntfile.js',
+        'tasks/*.js',
+        '<%= nodeunit.tests %>',
+      ]
+    },
     wintersmith: {
       build: {
         options: {
@@ -52,6 +62,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'jshint',
+    'jscs',
     'test',
   ]);
 };

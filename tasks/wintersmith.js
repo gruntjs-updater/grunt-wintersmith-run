@@ -1,22 +1,24 @@
 'use strict';
 
-var _ = require('lodash'),
-    wintersmith = require('wintersmith');
+var _ = require('lodash');
+var wintersmith = require('wintersmith');
 
 module.exports = function(grunt) {
   grunt.registerMultiTask('wintersmith', 'Run Wintersmith.', function() {
-    var done = this.async(),
-        options = this.options({
-          action: 'build',
-          background: false,
-          config: 'config.json',
-          locals: {},
-        }),
-        environment = wintersmith(options.config);
+    var done = this.async();
+
+    var options = this.options({
+      action: 'build',
+      background: false,
+      config: 'config.json',
+      locals: {},
+    });
+
+    var environment = wintersmith(options.config);
 
     _.merge(environment.config.locals, options.locals);
 
-    switch(options.action) {
+    switch (options.action) {
       case 'build':
         environment.build(function(error) {
           if (error) {
