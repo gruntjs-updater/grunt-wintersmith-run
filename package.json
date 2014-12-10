@@ -1,6 +1,6 @@
 {
   "name": "grunt-wintersmith-run",
-  "description": "Run Wintersmith.",
+  "description": "A Grunt plugin to run Wintersmith actions",
   "version": "0.1.2",
   "homepage": "https://github.com/xavierdutreilh/grunt-wintersmith-run",
   "author": {

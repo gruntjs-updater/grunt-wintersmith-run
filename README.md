@@ -1,6 +1,6 @@
 # grunt-wintersmith-run [![Build Status](https://travis-ci.org/xavierdutreilh/grunt-wintersmith-run.svg)](https://travis-ci.org/xavierdutreilh/grunt-wintersmith-run)
 
-> Run Wintersmith.
+> A Grunt plugin to run Wintersmith actions
 
 ## Getting Started
 
