@@ -13,9 +13,6 @@ module.exports = function(grunt) {
       ],
     },
     jscs: {
-      options: {
-        config: '.jscsrc'
-      },
       all: [
         'Gruntfile.js',
         'tasks/*.js',
