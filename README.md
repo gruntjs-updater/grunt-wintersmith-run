@@ -98,6 +98,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+* 2015-02-26 v0.1.4 Package cleanup
 * 2014-12-10 v0.1.3 Proper project description
 * 2014-11-14 v0.1.2 Background mode support
 * 2014-10-03 v0.1.1 Better error management
