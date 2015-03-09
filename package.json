@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "lodash": "3.3.1",
+    "lodash": "3.5.0",
     "wintersmith": "2.1.0"
   },
   "devDependencies": {
