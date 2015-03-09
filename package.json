@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "lodash": "3.3.1",
-    "lodash.merge": "3.0.2",
     "wintersmith": "2.1.0"
   },
   "devDependencies": {
