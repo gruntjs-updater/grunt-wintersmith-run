@@ -98,6 +98,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+* 2015-05-10 v0.2.0 Wintersmith support
 * 2015-05-06 v0.1.6 Dependency update
 * 2015-03-09 v0.1.5 Dependency cleanup
 * 2015-02-26 v0.1.4 Package cleanup
