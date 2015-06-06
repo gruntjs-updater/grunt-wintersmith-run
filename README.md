@@ -1,4 +1,4 @@
-# grunt-wintersmith-run [![Build Status](https://travis-ci.org/xavierdutreilh/grunt-wintersmith-run.svg)](https://travis-ci.org/xavierdutreilh/grunt-wintersmith-run)
+# grunt-wintersmith-run [![Build Status](https://travis-ci.org/xavierdutreilh/grunt-wintersmith-run.svg?branch=master)](https://travis-ci.org/xavierdutreilh/grunt-wintersmith-run)
 
 > A Grunt plugin to run Wintersmith actions
 
