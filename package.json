@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/xavierdutreilh/grunt-wintersmith-run/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/xavierdutreilh/grunt-wintersmith-run/blob/master/LICENSE.txt"
-    }
-  ],
+  "license": "MIT",
   "engines": {
     "node": ">= 0.8.0"
   },
