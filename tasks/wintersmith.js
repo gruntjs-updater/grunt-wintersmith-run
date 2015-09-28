@@ -8,10 +8,10 @@ module.exports = function(grunt) {
     var done = this.async();
 
     var options = this.options({
-      action: 'build',
-      background: false,
-      config: 'config.json',
-      locals: {},
+      'action': 'build',
+      'background': false,
+      'config': 'config.json',
+      'locals': {},
     });
 
     var environment = wintersmith(options.config);

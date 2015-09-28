@@ -26,11 +26,11 @@ In your project's Gruntfile, add a section named `wintersmith` to the data objec
 
 ```js
 grunt.initConfig({
-  wintersmith: {
-    options: {
+  'wintersmith': {
+    'options': {
       // Task-specific options go here.
     },
-    your_target: {
+    'your_target': {
       // Target-specific file lists and/or options go here.
     },
   },
@@ -73,8 +73,8 @@ Specifies the custom `locals` to pass to Wintersmith.
 
 ```js
 grunt.initConfig({
-  wintersmith: {
-    build: {
+  'wintersmith': {
+    'build': {
     },
   },
 });
@@ -84,9 +84,9 @@ grunt.initConfig({
 
 ```js
 grunt.initConfig({
-  wintersmith: {
-    options: {
-      action: 'preview',
+  'wintersmith': {
+    'options': {
+      'action': 'preview',
     },
   },
 });

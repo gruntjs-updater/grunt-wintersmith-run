@@ -2,46 +2,46 @@
 
 module.exports = function(grunt) {
   grunt.initConfig({
-    jshint: {
-      options: {
-        jshintrc: true,
+    'jshint': {
+      'options': {
+        'jshintrc': true,
       },
-      all: [
+      'all': [
         'Gruntfile.js',
         'tasks/*.js',
         '<%= nodeunit.tests %>',
       ],
     },
-    jscs: {
-      all: [
+    'jscs': {
+      'all': [
         'Gruntfile.js',
         'tasks/*.js',
         '<%= nodeunit.tests %>',
       ],
     },
-    clean: {
-      tests: [
+    'clean': {
+      'tests': [
         'tmp',
       ],
     },
-    wintersmith: {
-      build: {
-        options: {
-          config: 'test/fixtures/config.json',
-          locals: {
-            name: 'Custom Site Name',
+    'wintersmith': {
+      'build': {
+        'options': {
+          'config': 'test/fixtures/config.json',
+          'locals': {
+            'name': 'Custom Site Name',
           },
         },
       },
     },
-    nodeunit: {
-      tests: [
+    'nodeunit': {
+      'tests': [
         'test/*_test.js',
       ],
     },
-    bump: {
-      options: {
-        commitMessage: 'Bump version to {%= version %}',
+    'bump': {
+      'options': {
+        'commitMessage': 'Bump version to {%= version %}',
       },
     },
   });
