@@ -23,7 +23,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "lodash": "3.10.1",
+    "lodash": "^3.10.1",
     "wintersmith": "2.x"
   },
   "devDependencies": {
